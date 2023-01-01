@@ -6,12 +6,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Your website</title>
         <!-- local CSS file -->
+        <link rel="stylesheet" href="style/style.css">
         <!-- Bootstrap v5 link -->
         <link rel="stylesheet"
             href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"
             integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
         <!-- Google Fonts -->
-        <link rel="stylesheet" href="style/style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&family=Ubuntu&display=swap"
@@ -33,8 +33,8 @@
             <div class="header-contanier">
                 <div class="head-control"><i class="fa-solid fa-house"></i></div>
                 <div class="head-text">Your app</div>
-                <div class="control control-5" data-section="sign-in" data-title="sign-in">
-                    <i class="fa-solid fa-user"></i>
+                <div class="control control-5">
+                    <a href="/login.html" class="fa-solid fa-user"></a>
                 </div>
             </div>
 
@@ -44,27 +44,25 @@
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <div class="card">
-                            <div class="mask1">
-                                <video controls>
-                                    <source src="videos/НЕЙРОСЕТЬ_Chat_GPT_создала_ИГРУ_на_Unity!_Программисты_и_геймдизайнеры.mp4" type="video/mp4">
-                                    Your browser does not support the video tag.
-                                </video>
-                            </div>
+                            <video controls>
+                                <source
+                                    src="videos/НЕЙРОСЕТЬ_Chat_GPT_создала_ИГРУ_на_Unity!_Программисты_и_геймдизайнеры.mp4"
+                                    type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+
                             <div class="card-body">
                                 <div class="title">
                                     <div class="right">
                                         <div class="swiper-btn-prev"><i class="fa-solid fa-chevron-left"></i></div>
                                     </div>
+                                    <div class="text">
+                                        <p>Island Rusty</p>
+                                    </div>
                                     <div class="left">
                                         <div class="swiper-btn-next"><i class="fa-solid fa-chevron-right"></i></i></div>
                                     </div>
 
-                                    <div class="share ">
-                                        <button class="share-btn "><i class="fas fa-share-alt"></i></button>
-                                    </div>
-                                </div>
-                                <div class="text">
-                                    <p>Island Rusty</p>
                                 </div>
                             </div>
                         </div>
@@ -83,16 +81,12 @@
                                     <div class="right">
                                         <div class="swiper-btn-prev"><i class="fa-solid fa-chevron-left"></i></div>
                                     </div>
+                                    <div class="text">
+                                        <p>Island Rusty</p>
+                                    </div>
                                     <div class="left">
                                         <div class="swiper-btn-next"><i class="fa-solid fa-chevron-right"></i></i></div>
                                     </div>
-
-                                    <div class="share ">
-                                        <button class="share-btn "><i class="fas fa-share-alt"></i></button>
-                                    </div>
-                                </div>
-                                <div class="text">
-                                    <p>Island Rusty</p>
                                 </div>
                             </div>
                         </div>
@@ -111,16 +105,12 @@
                                     <div class="right">
                                         <div class="swiper-btn-prev"><i class="fa-solid fa-chevron-left"></i></div>
                                     </div>
+                                    <div class="text">
+                                        <p>Island Rusty</p>
+                                    </div>
                                     <div class="left">
                                         <div class="swiper-btn-next"><i class="fa-solid fa-chevron-right"></i></i></div>
                                     </div>
-
-                                    <div class="share ">
-                                        <button class="share-btn "><i class="fas fa-share-alt"></i></button>
-                                    </div>
-                                </div>
-                                <div class="text">
-                                    <p>Island Rusty</p>
                                 </div>
                             </div>
                         </div>
@@ -128,10 +118,9 @@
 
         </header>
 
-<!-- Main Section -->
+        <!-- Main Section -->
         <main>
-            <section class="section sec2 " id="blogs">News</section>
-            <section class="section sec3 news" id="news">Blogs</section>
+            <section class="section sec2 " id="news">News</section>
             <section class="section sec4 contact" id="contact">contact</section>
             <section class="section sec5 sign-in" id="sign-in">
                 <form action="index.html" method="post" class="box">
@@ -144,7 +133,7 @@
                 <form action="index.html" method="post" class="box">
                     <h1>Sign Up</h1>
                     <input type="text" name="" placeholder="Display Name">
-                    <input type="email" name="" placeholder="Email">           
+                    <input type="email" name="" placeholder="Email">
                     <input type="password" name="" placeholder="Password">
                     <input type="password" name="" placeholder="Confirm password">
                     <input type="submit" name="" value="Sign Up">
@@ -156,9 +145,7 @@
             <div class="control control-1 active-btn" data-section="home" data-title="home" id="defaultOpen">
                 <i class="fa-solid fa-layer-group"></i>
             </div>
-            <div class="control control-2" data-section="blogs" data-title="blogs">
-                <i class="fa-solid fa-heart"></i>
-            </div>
+
             <div class="control control-3" data-section="news" data-title="news">
                 <i class="fa-solid fa-newspaper"></i>
             </div>
